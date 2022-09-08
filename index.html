@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="imagenes/icono.JPG">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Inicio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3ebe5f560f.js" crossorigin="anonymous"></script>
+  <!-- font awesome pro -->
+  <link href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-xl navbar-dark sticky-top fixed-top">
+    <div class="container">
+      <div class="container-fluid">
+        <img src="imagenes/logo.svg" leading="lazy" width="292px" class="logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start span-blue" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <img src="imagenes/logo.svg" leading="lazy">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav mx-auto navbar-nav-scroll">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="proyectos.html">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav nav-hidde-movil">
+              <li class="nav-link fx-ai-c"><span class="material-icons">location_on</span>Dirección</span></li>
+              <li class="nav-link fx-ai-c"><span class="material-icons">call</span>(+51) 999 999 999</li>
+              <li class="nav-link fx-ai-c"><span class="material-icons">email</span>contacto@gallegos.com</li>
+            </ul>
+            <form class="d-flex">
+              <a href="contactar.html" class="btn my-2 my-sm-1 btn-color">Contactar</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="carousel" class="carousel slide section-home" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="imagenes/1366px_Home_Header.png" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block block-home">
+          <h1 class="text-h1">Potenciamos tu <span class="span-blue">productividad</span></h1>
+          <p class="text-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum inventore omnis sint veniam
+            reiciendis similique cumque minus illo corrupti suscipit, mollitia fuga, natus debitis voluptatum ex.
+            Velit adipisci consequuntur magni.</p>
+          <a href="#" class="btn btn-primary btn-more">Conoce más</a>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="imagenes/1366px_Home_Header.png" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/1366px_Home_Header.png" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <section class="w-100">
+    <div class="section-box">
+      <div class="section-tipe">
+
+        <h1 class="mb-5">Nuestros <span class="span-blue">servicios</span></h1>
+        <div class="row g-4 section-image">
+
+          <div class="section-col">
+            <img src="imagenes/1366px_Home_Servicios_MarketingDigital.png" class="card-img-top imagen-card">
+            <div class="card-body">
+              <h3 class="fs-5 mt-4 px-4 pb-1 title-card">Marketing Digital</h3>
+              <p class="px-4 text-p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="section-col">
+            <img src="imagenes/1366px_Home_Servicios_DiseñoGrafico.png" class="card-img-top imagen-card" alt="...">
+            <div class="card-body">
+              <h3 class="fs-5 mt-4 px-4 pb-1 title-card">Diseño gráfico</h3>
+              <p class="px-4 text-p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="section-col">
+            <img src="imagenes/1366px_Home_Servicios_DiseñoWeb.png" class="card-img-top imagen-card" alt="...">
+            <div class="card-body">
+              <h3 class="fs-5 mt-4 px-4 pb-1 title-card">Desarrollo web</h3>
+              <p class="px-4 text-p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="our-gallery">
+      <div class="our-gallery__block">
+        <h2 class="h2 white title">Diseño Gráfico</h2>
+        <img src="imagenes/gallery1.jpg" alt="" loading="lazy">
+      </div>
+      <div class="our-gallery__block">
+        <h2 class="h2 white title">Diseño Gráfico</h2>
+        <img src="imagenes/gallery2.jpg" alt="" loading="lazy">
+      </div>
+      <div class="our-gallery__block">
+        <h2 class="h2 white title">Diseño Gráfico</h2>
+        <img src="imagenes/gallery3.jpg" alt="" loading="lazy">
+      </div>
+      <div class="our-gallery__block">
+        <h2 class="h2 white title">Diseño Gráfico</h2>
+        <img src="imagenes/gallery4.jpg" alt="" loading="lazy">
+      </div>
+      <div class="our-gallery__block">
+        <h2 class="h2 white title">Diseño Gráfico</h2>
+        <img src="imagenes/gallery5.jpg" alt="" loading="lazy">
+      </div>
+      <div class="our-gallery__block">
+        <h2 class="h2 white title">Diseño UX UI</h2>
+        <img src="imagenes/gallery6.jpg" alt="" loading="lazy">
+      </div>
+      <div class="our-gallery__block">
+        <h2 class="h2 white title">Diseño Gráfico</h2>
+        <img src="imagenes/gallery7.jpg" alt="" loading="lazy">
+      </div>
+      <div class="our-gallery__block">
+        <h2 class="h2 white title">Diseño UX UI</h2>
+        <img src="imagenes/gallery8.jpg" alt="" loading="lazy">
+      </div>
+      <div class="our-gallery__block">
+        <h2 class="h2 white title">Diseño UX UI</h2>
+        <img src="imagenes/gallery9.jpg" alt="" loading="lazy">
+      </div>
+    </section>
+
+    </div>
+    <div id="carouselText" class="carousel carousel-dark slide section-box" data-bs-ride="carousel">
+      <div class="container">
+      <div class="section-tipe">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselText" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselText" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselText" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner section-coment">
+          <svg width="729" height="729" viewBox="0 0 729 729" fill="none" xmlns="http://www.w3.org/2000/svg"
+            class="circle_absolute">
+            <path
+              d="M729 364.5C729 565.808 565.808 729 364.5 729C163.192 729 0 565.808 0 364.5C0 163.192 163.192 0 364.5 0C565.808 0 729 163.192 729 364.5ZM152.802 364.5C152.802 481.417 247.583 576.198 364.5 576.198C481.417 576.198 576.198 481.417 576.198 364.5C576.198 247.583 481.417 152.802 364.5 152.802C247.583 152.802 152.802 247.583 152.802 364.5Z"
+              fill="currentColor" fill-opacity="0.2" />
+          </svg>
+          <svg width="729" height="729" viewBox="0 0 729 729" fill="none" xmlns="http://www.w3.org/2000/svg"
+            class="circle_absolute">
+            <path
+              d="M729 364.5C729 565.808 565.808 729 364.5 729C163.192 729 0 565.808 0 364.5C0 163.192 163.192 0 364.5 0C565.808 0 729 163.192 729 364.5ZM152.802 364.5C152.802 481.417 247.583 576.198 364.5 576.198C481.417 576.198 576.198 481.417 576.198 364.5C576.198 247.583 481.417 152.802 364.5 152.802C247.583 152.802 152.802 247.583 152.802 364.5Z"
+              fill="currentColor" fill-opacity="0.2" />
+          </svg>
+          <div class="carousel-item active" data-bs-interval="10000">
+            <p class="text-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum inventore omnis sint veniam
+              reiciendis similique cumque minus illo corrupti suscipit, mollitia fuga, natus debitis voluptatum ex.
+              Velit adipisci consequuntur magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+              inventore omnis sint veniam
+              reiciendis similique cumque minus illo corrupti suscipit, mollitia fuga, natus debitis voluptatum ex.
+              Velit adipisci consequuntur magni.</p>
+            <span><b>-Bruno Rengifo, Gallegos Corp.</b></span>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <p class="text-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum inventore omnis sint veniam
+              reiciendis similique cumque minus illo corrupti suscipit, mollitia fuga, natus debitis voluptatum ex.
+              Velit adipisci consequuntur magni.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum inventore
+              omnis sint veniam
+              reiciendis similique cumque minus illo corrupti suscipit, mollitia fuga, natus debitis voluptatum ex.
+              Velit adipisci consequuntur magni.</p>
+              <span><b>-Bruno Rengifo, Gallegos Corp.</b></span>
+          </div>
+          <div class="carousel-item">
+            <p class="text-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum inventore omnis sint veniam
+              reiciendis similique cumque minus illo corrupti suscipit, mollitia fuga, natus debitis voluptatum ex.
+              Velit adipisci consequuntur magni.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum inventore
+              omnis sint veniam
+              reiciendis similique cumque minus illo corrupti suscipit, mollitia fuga, natus debitis voluptatum ex.
+              Velit adipisci consequuntur magni.</p>
+              <span><b>-Bruno Rengifo, Gallegos Corp.</b></span>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer class="w-100  d-flex align-items-center justify-content-center flex-wrap footer-box">
+    <svg width="729" height="729" viewBox="0 0 729 729" fill="none" xmlns="http://www.w3.org/2000/svg"
+      class="circle_absolute">
+      <path
+        d="M729 364.5C729 565.808 565.808 729 364.5 729C163.192 729 0 565.808 0 364.5C0 163.192 163.192 0 364.5 0C565.808 0 729 163.192 729 364.5ZM152.802 364.5C152.802 481.417 247.583 576.198 364.5 576.198C481.417 576.198 576.198 481.417 576.198 364.5C576.198 247.583 481.417 152.802 364.5 152.802C247.583 152.802 152.802 247.583 152.802 364.5Z"
+        fill="currentColor" fill-opacity="0.4" />
+    </svg>
+    <svg width="729" height="729" viewBox="0 0 729 729" fill="none" xmlns="http://www.w3.org/2000/svg"
+      class="circle_absolute">
+      <path
+        d="M729 364.5C729 565.808 565.808 729 364.5 729C163.192 729 0 565.808 0 364.5C0 163.192 163.192 0 364.5 0C565.808 0 729 163.192 729 364.5ZM152.802 364.5C152.802 481.417 247.583 576.198 364.5 576.198C481.417 576.198 576.198 481.417 576.198 364.5C576.198 247.583 481.417 152.802 364.5 152.802C247.583 152.802 152.802 247.583 152.802 364.5Z"
+        fill="currentColor" fill-opacity="0.4" />
+    </svg>
+    <div class="container">
+      <div class="container-fluid">
+        <div class="row text-white color">
+          <div class="col-xs-12 col-md-6 footer-data">
+            <img src="imagenes/logo2.svg" leading="lazy" width="292px" class="logo">
+            <ul class="footer-li">
+              <li class="footer-list"><span class="material-icons">location_on</span>Dirección</span></li>
+              <li class="footer-list"><span class="material-icons">call</span>(+51) 999 999 999</li>
+              <li class="footer-list"><span class="material-icons">email</span>contacto@gallegos.com</li>
+              <li class="footer-list">Encuéntranos en</li>
+              <li class="footer-list"><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-twitter"></i><i
+                  class="fa-brands fa-youtube"></i><i class="fa-brands fa-instagram"></i></li>
+            </ul>
+
+          </div>
+          <div class="col-xs-12 col-md-6 footer-form">
+            <form class="row g-3">
+              <label for="Contact" class="form-label">¡Escríbenos!</label>
+              <div class="col-md-12">
+                <input type="name" class="form-control" id="Contact" placeholder="Nombres">
+              </div>
+              <div class="col-md-6">
+                <input type="phone" class="form-control" id="Contact" placeholder="Teléfono">
+              </div>
+              <div class="col-md-6">
+                <input type="email" class="form-control" id="Contact" placeholder="Correo Electrónico">
+              </div>
+              <div class="col-md-12">
+                <textarea class="form-control" id="Contact" rows="4" placeholder="Mensaje"></textarea>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-light" type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/code.js"> </script>
+</body>
+
+</html>
